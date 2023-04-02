@@ -9,7 +9,7 @@ body {
 }
 
 .profile-card {
-  margin: auto;
+  margin: 20px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 50px;
