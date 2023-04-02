@@ -3,20 +3,20 @@ body {
   text-align: center;
 }
 .container {
-  display: flex; /* display flexível */
-  justify-content: center; /* alinhamento horizontal ao centro */
-  align-items: center; /* alinhamento vertical ao centro */
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
 }
 
 .profile-card {
-  margin: 20px;
+  margin: auto;
   padding: 20px;
   border: 1px solid #ccc;
-  border-radius: 10px;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.2); /* sombra entre o cartão e o fundo */
-  background-color: white; /* fundo branco do cartão */
-  width: 100%; /* largura fixa do cartão */
-  font-family: 'Roboto', sans-serif; /* fonte do Google Fonts */
+  border-radius: 50px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2); 
+  background-color: white; 
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
 }
 .profile-image {
   width: 400px;
