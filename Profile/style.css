@@ -18,6 +18,13 @@ body {
   width: 100%;
   font-family: 'Roboto', sans-serif; 
 }
+
+@media (max-width: 600px) {
+  .profile-card {
+    width: 500px;
+  }
+}
+
 .profile-image {
   width: 400px;
   height: 400px;
