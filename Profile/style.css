@@ -1,37 +1,38 @@
 body {
   background-image: linear-gradient(red,white);
   text-align: center;
+  font-family: 'Roboto', sans-serif; /* fonte do Google Fonts */
+  margin: 0;
+  padding: 0;
 }
 .container {
-  display: flex; 
-  justify-content: center; 
-  align-items: center;
+  display: flex; /* display flexível */
+  justify-content: center; /* alinhamento horizontal ao centro */
+  align-items: center; /* alinhamento vertical ao centro */
 }
 
 .profile-card {
   margin: 20px;
   padding: 20px;
   border: 1px solid #ccc;
-  border-radius: 50px;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.2); 
-  background-color: white; 
-  width: 100%;
-  font-family: 'Roboto', sans-serif; 
-}
-
-@media (max-width: 600px) {
-  .profile-card {
-    width: 500px;
-  }
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2); /* sombra entre o cartão e o fundo */
+  background-color: white; /* fundo branco do cartão */
+  width: 120%; /* largura fixa do cartão */
 }
 
 .profile-image {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   border-radius: 40%;
   object-fit: cover;
 }
-
+.projects-image {
+  width: 50%;
+  height: 50%;
+  border-radius: 5%;
+  object-fit: cover;
+}
 .profile-bio,
 .profile-education {
   font-size: 38px;
@@ -39,7 +40,7 @@ body {
   border-bottom: 2px solid red; /* borda inferior para separar as seções */
 }
 .profile-name {
-  font-size: 24px;
+  font-size: px;
   font-weight: bold;
   margin-top: 10px;
 }
@@ -51,6 +52,7 @@ body {
 
 .profile-social {
   margin-top: 10px;
+  align-items: center;
 }
 
 .profile-social a {
@@ -62,3 +64,24 @@ body {
 .profile-social a:hover {
   color: #007bff;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.img-container {
+  max-width: 100%;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-container {
+  max-width: 100%;
+}
+
+
