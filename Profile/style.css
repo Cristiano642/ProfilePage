@@ -40,7 +40,7 @@ body {
   border-bottom: 2px solid red; /* borda inferior para separar as seções */
 }
 .profile-name {
-  font-size: px;
+  font-size: 75px;
   font-weight: bold;
   margin-top: 10px;
 }
