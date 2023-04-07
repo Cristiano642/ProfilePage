@@ -1,14 +1,14 @@
 body {
   background-image: linear-gradient(red,white);
   text-align: center;
-  font-family: 'Roboto', sans-serif; /* fonte do Google Fonts */
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
 }
 .container {
-  display: flex; /* display flexível */
-  justify-content: center; /* alinhamento horizontal ao centro */
-  align-items: center; /* alinhamento vertical ao centro */
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
 }
 
 .profile-card {
@@ -16,9 +16,9 @@ body {
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.2); /* sombra entre o cartão e o fundo */
-  background-color: white; /* fundo branco do cartão */
-  width: 120%; /* largura fixa do cartão */
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2); 
+  background-color: white; 
+  width: 120%;
 }
 
 .profile-image {
@@ -46,7 +46,7 @@ body {
 .profile-education {
   font-size: 38px;
   margin-top: 10px;
-  border-bottom: 2px solid red; /* borda inferior para separar as seções */
+  border-bottom: 2px solid red; 
 }
 .profile-name {
   font-size: 75px;
