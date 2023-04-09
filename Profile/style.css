@@ -12,13 +12,12 @@ body {
 }
 
 .profile-card {
-  margin: 20px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.2); 
   background-color: white; 
-  width: 120%;
+  width: 100%;
 }
 
 .profile-image {
