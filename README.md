@@ -9,5 +9,3 @@ I’m Cristiano and this is my personal page. I created this project to learn mo
 To see my page, you can simply access the link:
 
 https://cristianoestevespage.onrender.com/
-
-
