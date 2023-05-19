@@ -181,11 +181,11 @@ section#projects {
 
 .swiper-button-next, 
 .swiper-button-prev {
-  color: red;
+  color: white;
 }
 
 .swiper-pagination-bullet-active {
-  background-color: red;
+  background-color: white;
 }
 
 
