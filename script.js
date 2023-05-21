@@ -11,7 +11,7 @@ var swiper = new Swiper(".mySwiper", {
   mousewheel: true,
   keyboard: true,
   autoplay: {
-  delay: 5000,
+  delay: 4000,
   disableOnInteraction: false,
   },
   speed: 5000,
