@@ -89,7 +89,7 @@ section#home {
  #nome {
    width: 100%;
    height: auto;
-   font-size: 20px;
+   font-size: 18px;
    color: black;
     overflow: hidden;
     animation: digitar 10s steps(34) forwards;
