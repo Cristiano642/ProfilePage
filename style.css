@@ -95,11 +95,11 @@ section#home {
     animation: digitar 10s steps(34) forwards;
  }
  
-#nome::before {
-  content: "Hello World!! \A My name is Cristiano ";
-  max-width: 100%;
-  white-space: pre-wrap;
-}
+ #nome::before {
+    content: "Hello World!! My name is Cristiano ";
+    max-width: 100%;
+    white-space: nowrap;
+ }
  
  #nome::after {
     content: "|";
