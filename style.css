@@ -64,9 +64,11 @@ a {
   text-decoration: none;
   color: black;
 }
+
 a:hover img{
-  transform: scale(1.5); /* Aumenta o tamanho em 50% */
+  transform: scale(1.5); 
 }
+
 /* HOME */
 
 section#home {
