@@ -90,46 +90,80 @@ section#home {
 
 /* animação do texto */
  
- #nome {
-   width: 100%;
-   height: auto;
-   font-size: 18px;
-   color: black;
-    overflow: hidden;
-    animation: digitar 10s steps(34) forwards;
- }
- 
- #nome::before {
-    content: "Hello World!! My name is Cristiano ";
-    max-width: 100%;
-    white-space: nowrap;
- }
- 
- #nome::after {
-    content: "|";
-    animation: piscar 1s infinite;
- }
- 
- @keyframes digitar {
-    from {
-      width: 0;
-    }
+ #linha1 {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  color: black;
+  overflow: hidden;
+  animation: digitar 5s steps(13) forwards;
+}
 
-    to {
-      width: 100%;
-    }
- }
- 
- @keyframes piscar {
+#linha1::before {
+  content: "Hello World!!";
+  max-width: 100%;
+  white-space: nowrap;
+}
 
-    from, to {
+#linha1::after {
+  content: "|";
+  animation: piscar 1s;
+  animation-delay: 0s;
+  animation-iteration-count: 1; /* aqui você faz a animação rodar apenas uma vez */
+  animation-fill-mode: forwards;
+}
+
+#linha2 {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  color: black;
+  overflow: hidden;
+  animation: digitar 5s steps(21) forwards;
+  animation-delay: 2s; /* aqui você coloca o mesmo tempo da animação do elemento anterior */
+  visibility: hidden; /* aqui você faz o elemento ficar invisível */
+}
+
+#linha2::before {
+  content: "My name is Cristiano";
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+#linha2::after {
+  content: "|"; 
+  animation: piscar 3s infinite;
+}
+
+@keyframes digitar {
+  from {
+    width: 0;
+    visibility: visible; /* aqui você faz o elemento ficar visível quando a animação começar */
+  }
+
+  to {
+    width: 100%;
+    visibility: visible; /* aqui você mantém o elemento visível quando a animação terminar */
+  }
+}
+
+
+@keyframes piscar {
+  
+  from, to {
       opacity: 1;
-    }
-    50% {
+      content: "|"; /* aqui você mantém a " | " visível */
+  }
+  50% {
       opacity: 0;
-    }
- }
- 
+      content: "|"; /* aqui você mantém a " | " visível */
+  }
+  100% {
+      opacity: 1;
+      content: ""; /* aqui você mantém a " | " visível */
+  }
+  }
+
 
 .home-info button {
   border: none;
