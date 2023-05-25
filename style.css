@@ -175,7 +175,7 @@ section#home {
   cursor: pointer;
   opacity: 0.9;
   border-radius: 5px;
-  animation: pulse 5s infinite;
+  animation: pulse 3s infinite;
 }
 
 .home-info button a {
