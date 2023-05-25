@@ -175,9 +175,10 @@ section#home {
   cursor: pointer;
   opacity: 0.9;
   border-radius: 5px;
+  animation: pulse 5s infinite;
 }
 
-.home-info button a{
+.home-info button a {
   color: rgb(0, 0, 0);
 }
 
