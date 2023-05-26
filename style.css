@@ -218,6 +218,12 @@ section#aboutme {
   text-align: justify;
 }
 
+span.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* PROJECTS */
 
 section#projects {
@@ -363,4 +369,10 @@ footer {
   .project-info {
     width: 80%;
   }
+  
+  span.icons img {
+    max-width: 80%;
+    max-height: 80%;
+  }
+
 }
